@@ -21,8 +21,5 @@ $("#pixelCanvas").on("click", "td", function(event){
     // Select color input.
     var color = $("#colorPicker").val();
     $(event.target).css("background-color", color);
-    // remove the color
-    $(event.target).css("background-color", removeColor);
-})
 
 //PixelArtMaker by Tarfa Alhumaidan.
