@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pixel Art Maker</h1>
+    <br>
+    <span class="instruction">Choose Grid Size</span>
+
+    <form id="sizePicker">
+        Height: 
+        <input type="number" id="inputHeight" name="height" min="1" max="25" value="1">
+        Width:
+        <input type="number" id="inputWidth" name="width" min="1" max="25" value="1">
+        <input type="submit" id= submitButton>
+    </form>
+<br>
+
+    <span class="instruction">then Start drawing</span> 
+    <input type="color" id="colorPicker" value="#b6c3a4">
+
+
+    <br></br>
+
+    <table id="pixelCanvas"></table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="designs.js"></script>
+</body>
+</html>
+
+<!--PixelArtMaker by Tarfa Alhumaidan.
